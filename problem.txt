@@ -1,0 +1,62 @@
+
+The Payroll Challenge at TechCorp:
+
+At TechCorp, a fast-growing tech company, managing payroll has become a challenge. The company started small, with just a handful of employees, but over the years, it has grown into a bustling organization with diverse teams. With new departments forming and employees. coming in with different types of roles from salaried engineers to hourly interns and even commission-based sales agents-the HR team is drowning in spreadsheets.
+To make things more complicated, employees have started receiving performance bonuses, making the manual payroll process error prone. Every month, the payroll team scrambles to calculate salaries, account for overtime, apply tax deductions, and keep track of all the bonuses. The finance department wants accurate reports on total payroll expenses by department, and employees expect detailed salary slips showing their deductions and bonuses.
+Faced with this complexity, the company has turned to you, a rising data engineer, to save the day. Your task is to build an Employee Payroll System that automates the entire process. This system needs to handle the different types of employees, account for bonuses, apply tax calculations, and generate reports. To ensure that it is scalable and efficient, you'll leverage the power of Python's Object-Oriented Programming
+Will you be able to streamline TechCorp's payroll process and help them stay on top of their fast-growing workforce? The challenge is yours to take!
+Objective:
+Build a fully-fledged employee payroll system that handles a wide variety of employee types, pay structures, and benefits. The system should simulate real-world payroll complexities, including tax calculations, bonuses, deductions, and leave management.
+Requirements:
+1. Employee Types & Inheritance:
+Create a base Employee class with common attributes like: Employee ID, Name, Designation, Department, Base Salary, and Date of Joining..
+Create derived classes for different types of employees:
+ 1. Salaried Employee: Fixed monthly salary, with possible bonuses. .
+ 2. Contractual Employee: Paid based on hours worked, with overtime pay. 
+ 3. Commissioned Employee: Paid a base salary a percentage of sales made.
+Each derived class should have methods to calculate the respective salary based on their pay structure.
+
+
+2. Tax & Deductions Calculations:
+Implement tax slabs and deductions:
+ 1. Tax calculation based on salary brackets (e.g., 10% for income below Rs 7LPA, 20% for income between Rs 7LPA-15LPA, 30% for the rest.).
+
+3.Leave Management:
+-Implement a leave management systern where employees accrue paid leave based on tenure.
+-Deductions for unpaid leave days (for both salaried and hourty employees).
+-Display remaining paid leave balance in the pay slip.
+
+4 .Overtime Pay:
+-For hourly employees, calculate overtime pay for hours worked beyond 40 hours/week at 1.5x the hourly rate.
+-Store and track hours worked for hourty employees.
+
+5. Payroll Reporting:
+Generate various reports, such as:
+-Total payroll cost per department.
+-Average salary by department and location.
+-List of employees with bonuses and the total bonus cost.
+-Tax deductions summary across the organization.
+
+6. Creation of Pay Slips:
+Design a detailed pay slip for each employee, breaking down:
+-Base salary, overtime (for Contractual employees), commissions (for commissioned employees), and bonuses..
+-Deductions for taxes, insurance, and any other benefits.
+-Net salary after all calculations.
+
+Bonus Challenges:
+1. Graphical Payroll Summary:
+Use Matplotlib or Seaborn to visualize payroll data, such as:
+-Monthly salary distribution.
+-Department-wise salary distribution.
+-Tax deductions across employees.
+2. Bonuses & Benefits:
+-Add functionality to provide performance-based or annual bonuses, which can vary across departments.
+-Employees with more than 5 years of tenure get additional leave benefits or annual bonuses.
+3. Automated Payroll Execution:
+-Write a scheduler or script to automatically calculate and generate payroll for all employees on a monthly or bi weeidy basis.
+
+Points to be noted:
+-Use various Object-Oriented Programming concepts in your solution,
+-Use any libraries or packages as required.
+-Create a databricks notebook for your solution.
+
